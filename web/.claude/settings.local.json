@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p /tmp/handoff)",
+      "Read(//tmp/**)",
+      "Bash(unzip -o \"C:/dev/smart-pharma/web/SmartPharma-handoff.zip\")",
+      "Bash(cp *)",
+      "Bash(npx tsc *)",
+      "Bash(npx next *)",
+      "Bash(npm install *)"
+    ]
+  }
+}
